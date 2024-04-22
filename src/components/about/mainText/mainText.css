@@ -1,0 +1,24 @@
+.first-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 0 12rem 0 ;
+    width: 100%;
+}
+
+.texto-about {
+    width: 100%;
+    padding: 3rem 0 0 2rem;
+    font-size: 1.3rem;
+}
+
+.texto-about p{
+    line-height: 2rem;
+}
+
+.texto-topicos{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin: 0 0 1rem 2.5rem  ;
+}

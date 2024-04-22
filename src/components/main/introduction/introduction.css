@@ -1,0 +1,49 @@
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 12rem 0 ;
+    width: 100%;
+}
+
+.texto {
+    border-left: 0.188rem solid white;
+    width: 100%;
+}
+
+.h1{
+    font-size: 4.063rem;
+    padding: 0 3.125rem 0 1.25rem;
+    font-weight: 900;
+    text-shadow: 0.313rem 0.125rem 0.625rem rgba(255, 255, 255, 0.3);
+}
+
+.h2{
+    font-size: 1.5rem;
+    padding: 0 3.125rem 1.875rem 1.25rem ;
+}
+
+.h3{
+    font-size: 1.5rem;
+    padding: 1.875rem 3.125rem 0 1.25rem;
+    line-height: 1.5;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.img-principal{
+    /* width: 43.75rem; */
+    width: 60%;
+    padding: 0 0 0 9.375rem;
+    position: relative;
+}
+
+.img-principal img{
+    /* width: 43.75rem; */
+    width: 100%;
+    /* padding: 0 0 0 9.375rem; */
+    position: relative;
+}
