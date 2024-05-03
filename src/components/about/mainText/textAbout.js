@@ -1,9 +1,9 @@
 import React from 'react';
-import './mainText.css';
+import './textAbout.css';
 import { TopicName } from '../../main/topics/topicsName';
 
 
-function MainText() {
+function TextAbout() {
     return (
         <div className="texto-about">
             <p>Olá! Meu nome é Thaynara Rodrigues Martins.</p>
@@ -21,9 +21,9 @@ function MainText() {
             <p className='texto-topicos'>Diante dessa experiência e dessa necessidade que senti em expandir meus conhecimentos, decidi dar início aos estudos em JAVA e também me aprofundar em React. Dessa forma, reservei o Python principalmente para a análise de dados, enquanto estudo novas linguagens e tecnologias para o desenvolvimento web, tanto no back-end quanto no front-end.</p>
             <TopicName name="Ampliando Horizontes" />
             <p className='texto-topicos'>No meu atual estágio na Fundação Banco do Brasil, tenho várias oportunidades de adquirir conhecimento para além de codar. Posso liderar projetos, apresentar resultados a executivos e participar de forma colaborativa em reuniões de equipe, fóruns e comitês. Além disso, estar inserida em um ambiente corporativo de grande impacto social é uma parte essencial de minha experiência, tendo em vista que a Fundação tem como objetivo promover, apoiar, incentivar e patrocinar ações sociais. Essa vivência não apenas contribui para o meu desenvolvimento profissional, mas também me proporciona um significativo crescimento pessoal.</p>
-            <p className='texto-topicos'>Visando continuar nessa trajetória ascendente de aprimoramento de conhecimentos, estou avançando mais um degrau em minha jornada profissional ao iniciar um MBA em Engenharia de Software na Universidade de São Paulo (USP). Esta oportunidade representa uma maneira de me inserir no mercado de forma mais ativa, combinando teoria e prática para aprimorar minhas habilidades e conhecimentos em desenvolvimento de software.</p>
+            <p className='texto-topicos'>Visando continuar nessa trajetória ascendente de aprimoramento de conhecimentos, estou avançando mais um degrau em minha jornada profissional cursando minha primeira Pós-graduação Lato sensu - MBA em Engenharia de Software na Universidade de São Paulo (MBA USP/Esalq). Esta oportunidade representa uma maneira de me inserir no mercado de forma mais ativa, combinando teoria e prática para aprimorar minhas habilidades e conhecimentos em desenvolvimento de software.</p>
         </div>
     );
 };
 
-export default MainText;
+export default TextAbout;

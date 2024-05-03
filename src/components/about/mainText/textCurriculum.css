@@ -1,0 +1,70 @@
+.curriculum-title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 0 0 0 2.5rem;
+}
+
+.curriculum-schooling{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.curriculum-schooling div{
+    padding-bottom: 3rem;
+}
+
+.curriculum-subtitle{
+    font-size: 1.1rem;
+    line-height: 1rem;
+    font-weight: 900;
+    padding: 0 4rem;
+}
+
+.curriculum-text{
+    font-size: 1.1rem;
+    line-height: 1rem;
+    padding: 0 4rem;
+}
+
+.curriculum-experience{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.curriculum-experience-div{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.curriculum-experience-subtitle{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.curriculum-experience-subtitle-date{
+    font-size: 1.1rem;
+    line-height: 1rem;
+    padding: 0 4rem;
+    border-left: 0.1rem solid #fff;
+}
+
+.curriculum-experience-text{
+    font-size: 1.1rem;
+    line-height: 1rem;
+    padding: 0 0 2rem 6rem ;
+}
+
+.curriculum-expertise{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.curriculum-experience-expertise{
+    padding-left: 2rem;
+}

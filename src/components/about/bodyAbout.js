@@ -3,7 +3,8 @@ import '../../css/body.css';
 import {TitleName} from '../main/topics/topicsName';
 
 import MainImg from './mainImg/mainImg';
-import MainText from './mainText/mainText';
+import TextAbout from './mainText/textAbout';
+import TextCurriculum from './mainText/textCurriculum';
 
 
 function BodyAbout() {
@@ -11,8 +12,12 @@ function BodyAbout() {
         <main>
             <TitleName name="MINHA TRAJETÓRIA" />
             <div className="first-about">
-                <MainText />
+                <TextAbout />
                 <MainImg />
+            </div>
+            <TitleName name="CURRÍCULO" />
+            <div className='first-about'>
+                <TextCurriculum />
             </div>
         </main>
     );
