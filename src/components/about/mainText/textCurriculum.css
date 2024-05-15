@@ -1,31 +1,36 @@
-.curriculum-title{
-    font-size: 1.2rem;
-    font-weight: 900;
-    padding: 0 0 0 2.5rem;
+.curriculum {
+    padding: 5rem 0 0 0;
 }
 
-.curriculum-schooling{
+.curriculum__schooling {
+    padding: 0 0 0 2rem;
+}
+
+.curriculum__schooling__div {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 1rem;
+    padding: 0 0 2rem 2.5rem;
 }
 
-.curriculum-schooling div{
-    padding-bottom: 3rem;
+
+.curriculum__schooling__div h2{
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 0 0 0.5rem 0;
 }
 
-.curriculum-subtitle{
+.curriculum__schooling__div h3{
     font-size: 1.1rem;
     line-height: 1rem;
     font-weight: 900;
-    padding: 0 4rem;
+    padding: 0.5rem 0 0.5rem 2rem;
 }
 
-.curriculum-text{
+.curriculum__schooling__div p{
     font-size: 1.1rem;
     line-height: 1rem;
-    padding: 0 4rem;
+    padding: 0.3rem 2rem;
 }
 
 .curriculum-experience{

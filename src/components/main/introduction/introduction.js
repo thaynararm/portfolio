@@ -4,19 +4,17 @@ import MainImage from "./imgs/img-principal-home.png";
 
 function Introduction() {
     return (
-        <div className="first">
-            <div className="texto">
-                <h2 className="h2">Prazer, sou a</h2>
-                <h1 className="h1">THAYNARA MARTINS</h1>
-                <h3 className="h3">
-                    <p className="bold" >Uma matemática apaixonada por dados e códigos.</p>
-                    <p>Desenvolvedora de sistemas Full Stack e com vasto conhecimento em análise de dados. Destaco-me em transformar números em insights e soluções eficientes para desafios complexos.</p>
-                </h3>
+        <section className="introduction">
+            <div className="introduction__text">
+                <h2>Prazer, sou a</h2>
+                <h1>THAYNARA MARTINS</h1>
+                <h3>Uma matemática apaixonada por dados e códigos.</h3>
+                <h4>Desenvolvedora de sistemas Full Stack e com vasto conhecimento em análise de dados. Destaco-me em transformar números em insights e soluções eficientes para desafios complexos.</h4>                
             </div>
-            <div className="img-principal">
+            <div className="introduction__img">
                 <img src={MainImage} alt="Foto da Thaynara sorrindo." />
             </div>
-        </div>
+        </section>
     );
   };
 

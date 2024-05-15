@@ -12,7 +12,7 @@ import SQL from "./imgs/SQL.png";
 
 function IconBlockLanguages() {
     return (
-        <div className="img-icons-skills">
+        <ul className="skills">
             <IndividualIcon icon="PYTHON" imgIcon={PYTHON}/>
             <IndividualIcon icon="JAVA" imgIcon={JAVA}/>
             <IndividualIcon icon="JAVASCRIPT" imgIcon={JAVASCRIPT}/>
@@ -20,7 +20,7 @@ function IconBlockLanguages() {
             <IndividualIcon icon="CSS" imgIcon={CSS}/>
             <IndividualIcon icon="DAX" imgIcon={DAX}/>
             <IndividualIcon icon="SQL" imgIcon={SQL}/>
-        </div>
+        </ul>
     );
   };
 

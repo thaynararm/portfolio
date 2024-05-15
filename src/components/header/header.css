@@ -1,3 +1,7 @@
+header {
+    padding: 1.5rem 0 8rem 0;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -6,15 +10,14 @@
     width: 100%;
 }
 
-.links{
+.container__links{
     display: flex;
     justify-content: space-between;  
     align-items: center;
-    margin: 0 0 10rem 0;
     width: 70%;
 }
 
-.links a{
+.container__links a{
     margin: 1rem 0 0 0;
     text-decoration: none;
     color: white;
@@ -24,7 +27,7 @@
     position: relative;
 }
 
-.links a::after{
+.container__links a::after{
     content: ''; 
     position: absolute; 
     left: 0; 
@@ -36,17 +39,11 @@
 }
 
 
-.links a.active::after { 
+.container__links a.active::after { 
     width: 70%;
 }
 
 
-.links a:hover::after{
+.container__links a:hover::after{
     width: 70%; 
-}
-
-.links img{
-    width: 1.875rem;
-    height: 1.875rem;
-    margin: 0 0 0 11.875rem;
 }

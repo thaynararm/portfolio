@@ -4,12 +4,12 @@ import './individualIcons.css';
 
 function IndividualIcon({icon, imgIcon}) {
     return (
-        <div className="img-icons-skills-padding">
-            <a href={getLinkIcon(icon)} className="img-icons-skills-div">
+        <li className="skills__individual">
+            <a href={getLinkIcon(icon)}>
                 <img src={imgIcon} alt={icon} />
                 <p>{icon}</p>
             </a>
-        </div>
+        </li>
     );
 };
 

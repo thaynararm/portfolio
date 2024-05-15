@@ -1,4 +1,4 @@
-.first{
+.introduction {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -7,43 +7,38 @@
     width: 100%;
 }
 
-.texto {
+.introduction__text {
     border-left: 0.188rem solid white;
     width: 100%;
 }
 
-.h1{
+.introduction__text h1{
     font-size: 4.063rem;
-    padding: 0 3.125rem 0 1.25rem;
+    padding: 0 3.125rem 1.875rem 1.25rem;
     font-weight: 900;
     text-shadow: 0.313rem 0.125rem 0.625rem rgba(255, 255, 255, 0.3);
 }
 
-.h2{
+.introduction__text h2{
     font-size: 1.5rem;
     padding: 0 3.125rem 1.875rem 1.25rem ;
 }
 
-.h3{
+.introduction__text h3, h4{
     font-size: 1.5rem;
-    padding: 1.875rem 3.125rem 0 1.25rem;
+    padding: 0rem 3.125rem 0rem 1.25rem;
     line-height: 1.5;
 }
 
-.bold {
+.introduction__text h3{
     font-weight: 900;
 }
 
-.img-principal{
-    /* width: 43.75rem; */
+.introduction__img{
     width: 60%;
     padding: 0 0 0 9.375rem;
-    position: relative;
 }
 
-.img-principal img{
-    /* width: 43.75rem; */
+.introduction__img img{   
     width: 100%;
-    /* padding: 0 0 0 9.375rem; */
-    position: relative;
 }

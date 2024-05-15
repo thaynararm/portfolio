@@ -10,12 +10,12 @@ import POWERBI from "./imgs/POWERBI.png";
 
 function IconBlockTools() {
     return (
-        <div className="img-icons-skills">
+        <ul className="skills">
             <IndividualIcon icon="VS CODE" imgIcon={VSCODE}/>
             <IndividualIcon icon="SQL SERVER" imgIcon={SQLSERVER}/>
             <IndividualIcon icon="GITHUB" imgIcon={GITHUB}/>
             <IndividualIcon icon="POWER BI" imgIcon={POWERBI}/>
-        </div>
+        </ul>
     );
   };
 

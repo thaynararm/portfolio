@@ -1,37 +1,24 @@
 
-.img-icons-skills{
+.skills{
     display: flex;
     padding: 0 0 0 9.375rem;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-.img-icons-skills-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 9.375rem;
-    
-}
-
-.img-icons-skills a{
-    text-decoration: none;
-}
-
-.img-icons-skills-padding{
+.skills__individual{
     padding: 0 6.25rem 6.25rem 0;
     box-sizing: border-box;
 }
 
-
-.img-icons-skills img{
+.skills__individual img{
     width: 3.75rem;
     display: block;
     box-shadow: 0.625rem 0.625rem 0.313rem rgba(0,0,0,0.5);
     padding: 0 0 1.563rem 0;
 }
 
-.img-icons-skills p{
+.skills__individual p{
     font-size: 1rem;
     font-weight: 200;
     color: #fff;
@@ -39,4 +26,13 @@
     text-align: justify;
     text-align-last: left;
 }
+
+.skills__individual a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9.375rem;
+}    
+
 

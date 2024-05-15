@@ -3,22 +3,16 @@ import './header.css';
 
 function Header() {
     return (
-        <div>
-            <header>
-                <nav>
-                    <div className="container">
-                        <div className="links">
-                        <NavLink exact to="/" activeClassName="active">INÍCIO</NavLink>
-                        <NavLink to="/about" activeClassName="active">SOBRE MIM</NavLink>
-                        <NavLink to="/projects" activeClassName="active">PROJETOS</NavLink>
-                        <NavLink to="/contact" activeClassName="active">CONTATO</NavLink>
-                        </div>
-                        <div className="menu">
-                        </div>
-                    </div>
-                </nav>
-            </header>
-        </div>
+        <header>
+            <nav className="container">
+                <ul className="container__links">   
+                    <li><NavLink exact to="/" activeClassName="active">INÍCIO</NavLink></li>
+                    <li><NavLink to="/about" activeClassName="active">SOBRE MIM</NavLink></li>
+                    <li><NavLink to="/projects" activeClassName="active">PROJETOS</NavLink></li>
+                    <li><NavLink to="/contact" activeClassName="active">CONTATO</NavLink></li>
+                </ul>
+            </nav>
+        </header>
     );
   };
 

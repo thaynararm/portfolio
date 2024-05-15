@@ -11,13 +11,13 @@ import PANDAS from "./imgs/PANDAS.png";
 
 function IconBlockFrameworks() {
     return (
-        <div className="img-icons-skills">
+        <ul className="skills">
             <IndividualIcon icon="DJANGO" imgIcon={DJANGO}/>
             <IndividualIcon icon="FLASK" imgIcon={FLASK}/>
             <IndividualIcon icon="SPRING" imgIcon={SPRING}/>
             <IndividualIcon icon="REACT" imgIcon={REACT}/>
             <IndividualIcon icon="PANDAS" imgIcon={PANDAS}/>
-        </div>
+        </ul>
     );
   };
 
