@@ -1,0 +1,71 @@
+
+        //         <div className='curriculum-experience-div'>
+        //             <p className='curriculum-title'></p>
+        //             <div className='curriculum-experience-subtitle'>
+        //                 <div>
+        //                     <p className='curriculum-subtitle'></p>
+        //                 </div>
+        //                 <div>
+        //                     <p className='curriculum-experience-subtitle-date'></p>
+        //                 </div>
+        //             </div>
+        //             <p className='curriculum-experience-text'>
+                         ,</p>
+        //         </div>
+        //         <div className='curriculum-experience-div'>
+        //             <p className='curriculum-title'></p>
+        //             <div className='curriculum-experience-subtitle'>
+        //                 <div>
+        //                     <p className='curriculum-subtitle'></p>
+        //                 </div>
+        //                 <div>
+        //                     <p className='curriculum-experience-subtitle-date'></p>
+        //                 </div>
+        //             </div>
+        //             <p className='curriculum-experience-text'>
+                        ,</p>
+        //         </div>
+        // </section>
+        //     <TopicName name="Certificações e Conhecimentos" />
+        //     <div className='curriculum-expertise'>
+        //         <p className='curriculum-experience-text'>
+        //             <li></li>
+        //             <li></li>
+        //             <li></li>
+        //             <li></li>
+        //             <li></li>
+        //             <li></li>
+        //             <li></li>
+        //             <li></li>
+        //             <div className='curriculum-experience-expertise'>
+        //                 <li>Orientação a objetos</li>
+        //             </div>
+        //             <li></li>
+        //             <div className='curriculum-experience-expertise'>
+        //                 <li></li>
+        //                 <li></li>
+        //                 <li>Pandas</li>
+        //                 <li>Numpy</li>
+        //             </div>
+        //             <li></li>
+        //             <div className='curriculum-experience-expertise'>
+        //                 <li>A</li>
+        //                 <li>CRUD</li>
+        //                 <li></li>
+        //                 <li>Testes</li>
+        //             </div>
+        //             <li></li>
+        //             <div className='curriculum-experience-expertise'>
+        //                 <li>Excel</li>
+        //                 <li>SQL Server</li>
+        //                 <li>MySQL</li>
+        //                 <li>PostgreSQL</li>
+        //             </div>
+        //             <li></li>
+        //             <div className='curriculum-experience-expertise'>
+        //                 <li>Linguagem DAX</li>
+        //                 <li>Power Query</li>
+        //             </div>
+        //         </p>
+        //     </div>
+        // </div>

@@ -2,74 +2,58 @@
     padding: 5rem 0 0 0;
 }
 
-.curriculum__schooling {
+.curriculum__section {
     padding: 0 0 0 2rem;
 }
 
-.curriculum__schooling__div {
+.curriculum__section__schooling {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 0 0 2.5rem;
+}
+
+.curriculum__section__professional{
     padding: 0 0 2rem 2.5rem;
 }
 
+.curriculum__section__knowledges{
+    display: flex;
+    padding: 0 0 2rem 2.5rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 
-.curriculum__schooling__div h2{
+.curriculum__section__knowledges div{
+    width: 33.3%;
+}
+
+.curriculum__section__schooling div, .curriculum__section__professional div, .curriculum__section__knowledges div{
+    padding: 0 0 4rem 0;
+}
+
+.curriculum__section__schooling h2, .curriculum__section__professional h2, .curriculum__section__knowledges h2{
     font-size: 1.2rem;
     font-weight: 900;
     padding: 0 0 0.5rem 0;
 }
 
-.curriculum__schooling__div h3{
+.curriculum__section__schooling h3, .curriculum__section__professional h3, .curriculum__section__knowledges h3{
     font-size: 1.1rem;
     line-height: 1rem;
     font-weight: 900;
     padding: 0.5rem 0 0.5rem 2rem;
 }
 
-.curriculum__schooling__div p{
+.curriculum__section__schooling p, .curriculum__section__professional ul, p, .curriculum__section__knowledges ul, p{
     font-size: 1.1rem;
     line-height: 1rem;
     padding: 0.3rem 2rem;
 }
 
-.curriculum-experience{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-bottom: 1rem;
+.curriculum__section__schooling li, .curriculum__section__professional li, .curriculum__section__knowledges li{
+    margin: 0.5rem 2rem;
+    list-style-type: circle;
 }
 
-.curriculum-experience-div{
-    width: 100%;
-    padding-bottom: 2rem;
-}
 
-.curriculum-experience-subtitle{
-    display: flex;
-    flex-direction: row;
-    padding: 0.5rem 0 0.5rem 0;
-}
-
-.curriculum-experience-subtitle-date{
-    font-size: 1.1rem;
-    line-height: 1rem;
-    padding: 0 4rem;
-    border-left: 0.1rem solid #fff;
-}
-
-.curriculum-experience-text{
-    font-size: 1.1rem;
-    line-height: 1rem;
-    padding: 0 0 2rem 6rem ;
-}
-
-.curriculum-expertise{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.curriculum-experience-expertise{
-    padding-left: 2rem;
-}
