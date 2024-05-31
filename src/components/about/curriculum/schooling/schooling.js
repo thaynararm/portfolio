@@ -25,6 +25,11 @@ function Schooling() {
                     university="Universidade de Brasília (UnB)"
                     start="Início: 08/2018"
                     end="Conclusão: 08/2022" />
+                <Education 
+                    title="Graduação Incompleta - Ciências Contábeis"
+                    university="Universidade de Brasília (UnB)"
+                    start="Início: 08/2022"
+                    end="Trancamento: 05/2023" />
             </div>
         </section>        
     );

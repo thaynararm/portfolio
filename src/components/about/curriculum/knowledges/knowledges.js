@@ -6,34 +6,16 @@ import Learning from './learning';
 
 function Knowledges() {
     return (
-        <section className='curriculum__section'> 
+        <section className='curriculum__section'>
             <TopicName name="Certificações e Conhecimentos" />
-            <div className='curriculum__section__knowledges'>         
-                <Learning 
+            <div className='curriculum__section__knowledges'>
+                <Learning
                     learning="Lógica de Programação"
                     attributions={[]} />
-                <Learning 
-                    learning="Linux"
-                    attributions={[]} />
-                <Learning 
-                    learning="JavaScript"
-                    attributions={[]} />
-                <Learning 
-                    learning="HTML"
-                    attributions={[]} />
-                <Learning 
+                <Learning
                     learning="CSS"
                     attributions={[]} />
-                <Learning 
-                    learning="React"
-                    attributions={[]} />
-                <Learning 
-                    learning="Git e Github"
-                    attributions={[]} />
-                <Learning 
-                    learning="Java"
-                    attributions={["Orientação a objetos"]} />
-                <Learning 
+                <Learning
                     learning="Python"
                     attributions={[
                         "Orientação a Objetos",
@@ -41,7 +23,13 @@ function Knowledges() {
                         "Pandas",
                         "Numpy"
                     ]} />
-                <Learning 
+                <Learning
+                    learning="Linux"
+                    attributions={[]} />
+                <Learning
+                    learning="React"
+                    attributions={[]} />
+                <Learning
                     learning="Django"
                     attributions={[
                         "Admin",
@@ -49,7 +37,13 @@ function Knowledges() {
                         "API Rest Framework",
                         "Testes"
                     ]} />
-                <Learning 
+                <Learning
+                    learning="Git e Github"
+                    attributions={[]} />
+                <Learning
+                    learning="Java"
+                    attributions={["Orientação a objetos"]} />
+                <Learning
                     learning="Análise e Tratamento de Dados"
                     attributions={[
                         "Excel",
@@ -57,15 +51,27 @@ function Knowledges() {
                         "MySQL",
                         "PostgreSQL"
                     ]} />
-                <Learning 
+                <Learning
+                    learning="JavaScript"
+                    attributions={[]} />
+                <Learning
+                    learning="AWS"
+                    attributions={[
+                        "EC2",
+                        "S3"
+                    ]} />
+                <Learning
                     learning="Power BI"
                     attributions={[
                         "Linguagem DAX",
                         "Power Query"
                     ]} />
-                    
+                <Learning
+                    learning="HTML"
+                    attributions={[]} />
+
             </div>
-        </section>        
+        </section>
     );
 };
 

@@ -1,0 +1,16 @@
+.individual-skin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.individual-skin p{
+    color: #fff;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.3rem;
+    border-radius:0.4rem;
+    background-color: aqua;
+    padding: 0.8rem 1.2rem;
+    margin:0 0.5rem
+}
