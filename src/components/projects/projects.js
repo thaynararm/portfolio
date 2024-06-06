@@ -6,7 +6,8 @@ import Header from '../header/header.js';
 import './individual-project/individual-project.css'
 import Project from './individual-project/project.js';
 import './projects.css'
-import PORTFOLIO from './individual-project/imgs/portfolio.png'
+import portfolio from './individual-project/imgs/portfolio.png'
+import aluraPortfolio1 from './individual-project/imgs/alura-portfolio1.png'
 import IndividualSkin from './individual-project/individual-skin.js';
 
 
@@ -19,31 +20,19 @@ function Projects() {
             <section className='projects'>
                 <Project
                     title="PORTFÓLIO"
-                    img={PORTFOLIO}
+                    img={portfolio}
                     hashtags="#FRONTEND"
-                    nameSkin={
-                        <IndividualSkin nameSkin="React" />
-                    }/>
+                    nameSkins= {[
+                        <IndividualSkin nameSkin="React" />,
+                        ]}/>
                 <Project
-                    title="PORTFÓLIO"
-                    img={PORTFOLIO}
+                    title="PRIMEIRO PROJETO EM FRONT END"
+                    img={aluraPortfolio1}
                     hashtags="#FRONTEND"
-                    nameSkin="React" />
-                <Project
-                    title="PORTFÓLIO"
-                    img={PORTFOLIO}
-                    hashtags="#FRONTEND"
-                    nameSkin="React" />
-                <Project
-                    title="PORTFÓLIO"
-                    img={PORTFOLIO}
-                    hashtags="#FRONTEND"
-                    nameSkin="React" />
-                <Project
-                    title="PORTFÓLIO"
-                    img={PORTFOLIO}
-                    hashtags="#FRONTEND"
-                    nameSkin="React" />
+                    nameSkins= {[
+                        <IndividualSkin nameSkin="HTML" />,
+                        <IndividualSkin nameSkin="CSS" />,
+                        ]}/>
             </section>
         </div>
     );

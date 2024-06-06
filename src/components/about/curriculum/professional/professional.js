@@ -13,9 +13,11 @@ function Professional() {
                     enterprise="Grow BPO Financeiro"
                     period="Abr/2024 - Presente"
                     attributions={[
-                        "Desenvolvimento de sites e aplicações web utilizando os frameworks Django e React.", 
-                        "Autogestão de projetos, incluindo prazos e entregas.", 
-                        "Implementação de soluções personalizadas para atender às necessidades do cliente."]}/>
+                        "Desenvolvimento de aplicações web utilizando Django e Django Rest Framework para back end e React para front end.", 
+                        "Criação e integração de APIs RESTful.", 
+                        "Configuração e gerenciamento do Django Admin",
+                        "Utilização do PostgreSQL para armazenamento de dados.",
+                        "Implementação e implantação das aplicações na AWS."]}/>
 
                 <Experience 
                     title="Estágio - Análise de Dados"

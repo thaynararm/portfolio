@@ -11,7 +11,7 @@ import './project.css'
 
 
 
-function Project({title, img, hashtags, nameSkin}) {
+function Project({title, img, hashtags, nameSkins}) {
     return (
         <div className='project'>
             <IndividualProject
@@ -19,7 +19,9 @@ function Project({title, img, hashtags, nameSkin}) {
                 img={img}
                 hashtags={hashtags} />
             <div className='individual-skin'>
-                {nameSkin}
+                {nameSkins && Array.isArray(nameSkins) && nameSkins.map((skin, index) => (
+                    <span key={index}>{skin}</span>
+                ))}
             </div>
         </div>
     );
